@@ -84,10 +84,31 @@ body.fotos #navegacao a#fotos {
     float: left;
 }
 
-#primario {
+#lateral {
+    width: 180px;
+    background: yellow;
+    margin: 0 0 20px -750px;
+    float: left;
+}
+
+#tres-colunas #primario {
     width: 270px;
     background: blue;
     margin: 0 0 20px 195px;
+    float: left;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+    background: blue;
+    margin: 0 0 20px 195px;
+    float: left;
+}
+
+#uma-coluna #primario {
+    width: 750px;
+    background: blue;
+    margin: 0 0 20px 0;
     float: left;
 }
 
@@ -95,13 +116,6 @@ body.fotos #navegacao a#fotos {
     width: 270px;
     background: green;
     margin: 0 0 20px 15px;
-    float: left;
-}
-
-#lateral {
-    width: 180px;
-    background: yellow;
-    margin: 0 0 20px -750px;
     float: left;
 }
 
